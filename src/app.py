@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ChatGPT-3.5のモデルのインスタンスの作成
-chat = ChatOpenAI(model_name="gpt-3.5-turbo")
+chat = ChatOpenAI(model_name="gpt-3.5-turbo", streaming=True)
 
 # セッション内に保存されたチャット履歴のメモリの取得
 try:
