@@ -5,7 +5,13 @@ description = "Add your description here"
 authors = [
     { name = "reizist", email = "reizist@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "langchain>=0.0.27",
+    "openai>=0.27.8",
+    "chromadb>=0.4.6",
+    "tiktoken>=0.4.0",
+    "GitPython>=3.1.32",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
